@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif ;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+    font-family: 'Roboto' , sans-serif;
+    padding-top: 40px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    z-index: 1;
+}
+
+  .btn a{
+    padding:10px;
+    background-color: rgb(148, 109, 163);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn{
+    position: fixed;
+    margin-top: 100px;
+   padding: 50px;
+    width: 100%;
+  }

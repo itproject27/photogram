@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    line-height: 18px;
+    font-family: sans-serif;
+
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 0;
+    order: 4;
+    padding: 0;
+    position: relative;
+
+}
+.row{
+    display: flex;
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+  }
+  
+  .col1{
+    position: relative;
+    min-width: 46rem;
+    height: 61.8rem;
+    background: url("../images/home-phones.png") center no-repeat;
+    background-size: 500px;
+    margin-right: 400px;
+  }
+.authentication-inner{
+    margin-top: 0;
+    margin-left: 800px;
+}
+.hore-img{
+    width: 280px;
+    height: 580px;
+    background: url("../images/screenshot3.png") center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 5rem;
+    margin-left: 515px;
+    
+}
+
